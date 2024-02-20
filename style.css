@@ -1,0 +1,24 @@
+form {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+input{
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    background-color: blueviolet;
+    font-size: 3rem;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
