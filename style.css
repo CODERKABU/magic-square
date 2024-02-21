@@ -15,8 +15,13 @@ input{
     font-size: 3rem;
 
 }
+h1,h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-body{
+.temp{
     display: flex;
     align-items: center;
     justify-content: center;
