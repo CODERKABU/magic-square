@@ -5,32 +5,37 @@ form {
     gap: 20px;
 }
 
-input{
+input {
     width: 100px;
     height: 100px;
     border-radius: 16px;
     color: white;
     border: none;
-    background-color: blueviolet;
+  
+    background-color: grey;
     font-size: 3rem;
 
 }
-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.temp {
+    text-align: center;
+    margin-top: 10%;
 }
 
-h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:50px ;
+h1 {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.temp{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+h2 {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}   
+
+.headings {
+    
+    color: slategrey;
+    margin-bottom: 100px;
 }
